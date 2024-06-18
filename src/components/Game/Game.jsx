@@ -60,7 +60,7 @@ const Game = () => {
           <Guess
             key={index}
             city={g.city}
-            guess={g.c}
+            guess={g.guess}
             actual={g.actual}
             isCorrect={g.isCorrect}
           />
