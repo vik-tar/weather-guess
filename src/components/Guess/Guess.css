@@ -1,0 +1,25 @@
+.guess {
+    border: 1px solid #414141;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info {
+    padding: 0 10px;
+}
+
+.isCorrect {
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.success {
+    background-color: #46d95f;
+}
+
+.error {
+    background-color: #ab3c3c;
+}
